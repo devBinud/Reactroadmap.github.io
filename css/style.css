@@ -1,0 +1,287 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+    padding:20px 80px;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 30px;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.navbar .logo img{
+    margin-right: 12px;
+}
+.navbar .logo h4{
+    color:rgb(114, 190, 240);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+/* .nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    color:rgb(245, 245, 245);
+    padding:6px 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color:rgb(133, 151, 31);
+} */
+.inner-container{
+    padding:50px 80px;
+    background-color: rgb(175, 219, 219);
+}
+/* inner container styling starts */
+.home h2{
+    margin-bottom: 12px;
+}
+span{
+    color:rgb(22, 90, 153);
+}
+.home p{
+    font-size:17px;
+    margin-bottom: 3px;
+}
+.guide h2{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.guide p{
+    font-size:17px;
+    margin-bottom: 3px;
+}
+.js-pre h2{
+    margin-bottom: 12px;
+}
+.js-pre p{
+    font-size:17px;
+    margin-bottom: 3px;
+}
+.js-pre-list{
+    margin-top: 8px;
+    
+}
+ul{
+    margin-top: 14px;
+}
+ul li {
+    margin-bottom: 6px;
+    font-size:17px;
+}
+.react-roadmap{
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.react-roadmap h2{
+    margin-bottom: 16px;
+
+}
+.react-roadmap h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.ui-frameworks h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.react-packages h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.state-management-tools h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.more-learn h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.important-things h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.test-react h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.deploy-react h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.react-concepts{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.react-concepts h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.react-concepts h3{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.react-concepts p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.component-explanation{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.component-explanation h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.component-explanation p{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.component-images{
+    margin-top: 28px;
+    margin-bottom: 28px;   
+}
+.component-images p{
+    margin-top: 6px;
+    font-size: 14px;
+    width: 33%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Javascript-xml{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.Javascript-xml h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.Javascript-xml p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.Javascript-xml .jsx-images{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.props{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.props h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.props p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.state{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.state h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.state p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.events{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.events h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.events p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.add-events{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.add-events h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.hooks{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.hooks h2{
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+.hooks p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.project-ideas{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.project-ideas h2{
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+.project-ideas p{
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.project-ideas .cards{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+
+.cards{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.cards img{
+    margin-right: 10px;
+}
+/* inner container parts ends here */
+/* footer section starts */
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color:aliceblue;
+}
+/* footer section ends */
